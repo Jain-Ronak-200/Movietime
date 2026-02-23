@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "MoviessTime",
-    "slug": "MoviessTime",
+    "slug": "moviesstime",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/logo.png",
@@ -33,10 +33,20 @@
           "resizeMode": "contain",
           "backgroundColor": "#ffffff"
         }
-      ]
+      ],
+      "expo-secure-store"
     ],
     "experiments": {
       "typedRoutes": true
-    }
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "8581c699-6f16-4f6c-aa10-a8a9d24dd3d4"
+      }
+    },
+    "owner": "ronak-dev-4"
   }
 }
